@@ -14,3 +14,8 @@
 
 # 4)to get the updated code from github 
     -->git pull
+
+# 5) Create sh file to run the bash file 
+    --> bash init_setup.sh
+# sometimes environment will not be created in that case we need to activate the source env script manually
+    --> source activate ./env
