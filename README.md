@@ -19,3 +19,5 @@
     --> bash init_setup.sh
 # sometimes environment will not be created in that case we need to activate the source env script manually
     --> source activate ./env
+
+# in Requirements.txt file if we mention -e . in it then it will internally call setup.py file 
