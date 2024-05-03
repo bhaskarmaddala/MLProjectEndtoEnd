@@ -21,3 +21,9 @@
     --> source activate ./env
 
 # in Requirements.txt file if we mention -e . in it then it will internally call setup.py file....
+
+# TO RUN THS LOCAL PACKAGE RUN BELOW COMMAND
+    --> python setup.py install 
+
+# another way to install requirements.txt is incluide "-e ." and run below command
+    --> pip install -r requirements.txt
