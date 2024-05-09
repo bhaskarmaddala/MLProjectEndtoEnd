@@ -30,14 +30,14 @@ class ModelTrainer:
                 test_array[:,:-1],
                 test_array[:,-1]
             )
-
+            logging.info("Start of Models in Model_training")
             models={
             'LinearRegression':LinearRegression(),
             'Lasso':Lasso(),
             'Ridge':Ridge(),
             'Elasticnet':ElasticNet()
-        }
-            
+            }
+            logging.info("Start of Model Report in Model_training")
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
             print(model_report)
             print('\n====================================================================================\n')
