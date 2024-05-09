@@ -41,6 +41,11 @@ class DataIngestion:
             logging.info("AFTER Creating TRAIN and TEST Data with ARTIFACT Folder")
 
             logging.info("Data Ingestion Completed")
+            
+            return (
+                self.ingestion_config.train_data_path,
+                self.ingestion_config.test_data_path
+            )
 
         except Exception as e:
             logging.error("Exception Occured at Data Ingestion Stage")
