@@ -27,3 +27,15 @@
 
 # another way to install requirements.txt is incluide "-e ." and run below command
     --> pip install -r requirements.txt
+
+# Go to Dagshub url and create a new account and link your github repo to it 
+# go to the selected repo and select remote option from there and go to the Experiment tab ans u can find the dagshub url 
+    -->import dagshub
+        dagshub.init(repo_owner='bhaskarmaddala', repo_name='MLProjectEndtoEnd', mlflow=True)
+
+        import mlflow
+        with mlflow.start_run():
+        mlflow.log_param('parameter name', 'value')
+        mlflow.log_metric('metric name', 1)
+
+    --> https://dagshub.com/bhaskarmaddala/MLProjectEndtoEnd.mlflow
