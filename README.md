@@ -38,4 +38,11 @@
         mlflow.log_param('parameter name', 'value')
         mlflow.log_metric('metric name', 1)
 
-    --> https://dagshub.com/bhaskarmaddala/MLProjectEndtoEnd.mlflow
+    --> https://dagshub.com/bhaskarmaddala/MLProjectEndtoEnd.mlflow 
+
+    token 9ab7b6883c6281bf1e23ba2a6ca5cea8f6a1773d 
+    Defualt -->fe2c29157fec41831d5176e562dee90a23e69a5c
+
+    export MLFLOW_TRACKING_URL=https://dagshub.com/bhaskarmaddala/MLProjectEndtoEnd.mlflow 
+    export MLFLOW_TRACKING_USERNAME=bhaskarmaddala/MLProjectEndtoEnd
+    export MLFLOW_TRACKING_PASSWORD=fe2c29157fec41831d5176e562dee90a23e69a5c
